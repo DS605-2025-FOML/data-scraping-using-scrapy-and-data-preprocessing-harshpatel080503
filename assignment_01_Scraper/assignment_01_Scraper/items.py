@@ -4,9 +4,6 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-
-import scrapy
-
 class BooksScraperItem(scrapy.Item):
     title = scrapy.Field()
     price = scrapy.Field()
